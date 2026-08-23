@@ -2,8 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { blogPosts } from "@/lib/blog-data";
 
-// Free domain on Cloudflare Pages / Workers
-const BASE_URL = "https://thumbnailfreedownload.pages.dev";
+// Live domain on Cloudflare Workers
+const BASE_URL = "https://thumnildowlander.thumbnaildownloadfree.workers.dev";
 
 interface SitemapEntry {
   path: string;
